@@ -22,8 +22,8 @@ Emojpy Script
 ## dialects
 From beginning emojpy contains the possibility to define you own emojpy-dialect. 
 
-## fileextension
-Default fileextension for emojpy files is .💎
+## file extension
+Default file extension for emojpy files is .💎
 
 > Note: In future Versions this will be changebale in the dialect file
 
