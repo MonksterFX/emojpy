@@ -2,17 +2,17 @@
 Emoji To Python Transpiler - Having Fun With Emojis
 
 # proposal
-The idea behind emojpy is to build a valid transpiler for code expressed trough emojis.
+The idea behind emojpy is to build a valid transpiler for code expressed trough emojis. It supports 3.6+ python.
 
 ## example
-You can see an example here:
+Basic Python Example:
 
 ```py
 a = 'Hello World'
 print(a)
 ```
 
-in emojpy script
+Emojpy Script
 ```py
 🔑😜
 😜 = 'Hello World'
@@ -27,13 +27,14 @@ Default fileextension for emojpy files is .💎
 
 > Note: In future Versions this will be changebale in the dialect file
 
-<hr>
+## unicode support
+This transpiler supports emojis expressed trough unicode. An example of unicode emojis you can find [here](https://unicode.org/emoji/charts/full-emoji-list.html).
 
-Planed features for Release Version 1.0
+# release plan
+Features For Release Version 1.0
 
 [ ] Transpiler from emojpy to python*<br> 
 [ ] Transpiler from python to emojpy*<br>
 [ ] Draft for dialect files*<br>
 
-*\*supporting all 26 python keywords, numbers and variable declaration*
-
+*\*supporting all 35 python [keywords](https://docs.python.org/3.7/reference/lexical_analysis.html#keywords), numbers and variable declaration*
