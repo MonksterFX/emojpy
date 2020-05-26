@@ -31,7 +31,7 @@ Default file extension for emojpy files is .💎
 This transpiler supports emojis expressed trough unicode. An example of unicode emojis you can find [here](https://unicode.org/emoji/charts/full-emoji-list.html).
 
 ## working samples
-Under examples you will find some very simple working examples. Learn how to execute them with the parsing script in [Examples Doc](./doc/example.md).
+Under examples you will find some very simple working examples. Learn how to execute them with the parsing script in [examples doc](./doc/example.md).
 
 # release plan
 Features For Release Version 1.0
